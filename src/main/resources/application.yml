@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: config-server
+          default-label: DESARROLLO
           uri: https://github.com/zyimy/config-server-proyecto-tfg
           search-paths: config-data
   application:
