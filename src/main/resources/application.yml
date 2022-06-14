@@ -1,1 +1,13 @@
-
+server:
+  port: 8081
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          default-label: DESARROLLO
+          uri: https://github.com/zyimy/config-server-proyecto-tfg
+          search-paths: config-data
+  application:
+    name: config-server         
+              
