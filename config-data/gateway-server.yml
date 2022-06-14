@@ -25,5 +25,9 @@ spring:
            uri: lb://service-packs
            predicates:
              - Path=/packs/** 
+         - id: auth-service
+           uri: lb://auth-service
+           predicates:
+             - Path=/auth/**    
                
      
